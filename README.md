@@ -33,6 +33,8 @@ MolGAN-QRL-GitHub/
 ├── .gitignore
 └── README.md
 
+---
+
 ## 🧬 Dataset: QM9
 
 The model is trained on the **QM9 molecular dataset**, provided in two chemical formats:
