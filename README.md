@@ -32,6 +32,7 @@ MolGAN-QRL-GitHub/
 ├── environment.yml   # Conda environment setup
 ├── .gitignore
 └── README.md
+```
 
 ---
 
@@ -56,6 +57,7 @@ Use the provided conda file to create the environment:
 ```bash
 conda env create -f environment.yml
 conda activate molgan-pt
+```
 
 ## 🚀 Running the Code
 
@@ -64,15 +66,18 @@ Both versions of the model can be launched using the same entrypoint:
 ### ▶️ To run **MolGAN** (baseline):
 ```bash
 python molgan/main_gan.py
+```
 
 ### ▶️ To run **MolGAN-QRL** (quantum-enhanced):
 ```bash
 python molgan_qrl/main_gan.py
+```
 
 The hybrid quantum-classical reward is implemented in:
 
 ```bash
 molgan_qrl/circuit.py
+```
 
 ## 🧠 Hybrid Reward Algorithm
 
