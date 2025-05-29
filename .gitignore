@@ -1,0 +1,20 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Data files (output or input)
+*.pkl
+*.sdf
+*.csv
+*.gz
+*.log
+
+# IDE-specific settings
+.vscode/
